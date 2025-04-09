@@ -2,6 +2,9 @@
 这个程序会将你从 Apple Books 里导出的高亮和笔记数据，和 epub 书籍原文进行匹配，根据每条高亮和笔记生成一个带有高亮内容所属章节和高亮内容所属段落的 Markdown 文件，可直接使用 Obsidian 打开。
 
 # 使用教程
+## 选择版本
+- 不会使用 Python，请下载并使用 main.exe 文件
+- 会使用 Python，请安装 requirements.txt 后，运行 main.py 文件
 ## 导出 Apple Books Highlight
 1. 在书籍的高亮标记界面中，左上角点击「选择」，下拉全选所有高亮标记，长按，切换至例如邮件等 App，松开内容，将内容发送至电脑端。
 2. 确认内容格式为——
